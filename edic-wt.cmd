@@ -6,7 +6,7 @@ set wt="%USERPROFILE%\AppData\Local\Microsoft\WindowsApps\wt.exe"
 set py="PyEmbed\python.exe"
 
 if exist %wt% (
-    %wt% -F -p "명령 프롬프트" -d . %py% edic.py
+    %wt% -F -d . %py% edic.py
 ) else (
     %py% edic.py
 )
