@@ -2,7 +2,7 @@
 setlocal
 pushd "%~dp0"
 
-set py="Py3Embed\python.exe"
+set py="PyEmbed\python.exe"
 
 %py% edic.py
 exit /b

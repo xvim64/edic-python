@@ -14,5 +14,5 @@ if exist edic.sqlite (
         exit /b 1
     )
 )
-"Py3Embed\python.exe" dic2sqlite.py
+"PyEmbed\python.exe" dic2sqlite.py
 exit /b
